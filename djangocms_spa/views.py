@@ -1,6 +1,6 @@
 import json
 
-from cms.utils.page_resolver import get_page_from_request
+from cms.utils.page import get_page_from_request
 from django.conf import settings
 from django.http import HttpResponse, JsonResponse
 from django.views.generic.detail import SingleObjectMixin
